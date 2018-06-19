@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/blockchain_go/04-Transactions-1/blc"
+	"github.com/blockchain_go/05-Addresses/blc"
 )
 
 func main() {
