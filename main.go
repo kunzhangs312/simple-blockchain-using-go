@@ -1,13 +1,10 @@
 package main
 
 import (
-	"github.com/blockchain_go/03-Persistence-and-CLI/blc"
+	"github.com/blockchain_go/04-Transactions-1/blc"
 )
 
 func main() {
-	bc := blc.NewBlockchain()
-	defer bc.Db.Close()
-
-	cli := blc.CLI{bc}
+	cli := blc.CLI{}
 	cli.Run()
 }
